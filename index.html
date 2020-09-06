@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Drink&Read Shop</title>
+    <style>
+h1{
+    background-color: azure;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(32, 32, 32);
+}
+img{
+    width: 100%;
+   
+}
+body{
+    background-color: black;
+}
+p{
+    color: black;
+    font-size: large;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Drink&Read Shop</h1>
+    </header>
+<h1>Class 1 Lab.</h1>
+
+<img src="original (2).jpg" alt="">
+    <main>
+
+    <p style="background-color: slategrey;">What is your name</p>
+    <p style="background-color: rosybrown;">Where are you from</p>
+    <p style="background-color: aquamarine;">what would you like to drink?</p>
+    <p style="background-color: aliceblue;">what would you like to read?</p>
+
+
+    </main>
+    
+</body>
+<footer>
+    <script> 
+    var userName = prompt('what is your name?');
+    console.log('welcome'  + userName)
+    alert(' Welcome to our shop ' + userName)
+    var place = prompt('where are you from?', 'Amman');
+    console.log(place);
+    alert( place + ' is a lovely place ' + userName)
+    var drinkInput = prompt(' what would you like to drink? ' + userName, 'Coffee')
+    console.log( drinkInput);
+    alert(' Great choice ' + ' i like '+ drinkInput +' too ' + userName  + ' from '  + place)
+    var readInput = prompt(' what would you like to read today? '  + userName, 'Novel')
+    console.log(readInput);
+    alert(' Welcome '  + userName  + ' from '  + place  + ' enjoy reading '  + readInput + ' & drinking ' + drinkInput)
+
+    </script>
+</footer>
+</html>
